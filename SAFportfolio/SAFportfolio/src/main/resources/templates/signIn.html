@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title th:text="${title}">Getting Started: Serving Web Content</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link href="style-enter.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="page-header">
+            <div class="header-logo"><h2 class="logo-head">SAF | PORTFOLIO</h2></div>
+            <div class="links-user"><div class="link-enter"><p class="enter"><a href="/signin">Войти</a></p></div>
+                <div class="link-registration"><p class="registration"><a href="#">Регистрация</a></p></div></div>
+        </header>
+        <main>
+            <section class="window-enter">
+                <p class="email-enter">Электронная почта или телефон</p>
+                <p class="password-enter">Пароль</p>
+                <p class="bottom-continue"><button type="button" class="continue">Продолжить</button></p>
+            </section>
+        </main>
+    </body>
+</html>

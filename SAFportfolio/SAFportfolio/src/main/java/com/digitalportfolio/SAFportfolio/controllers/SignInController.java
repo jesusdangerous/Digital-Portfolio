@@ -5,11 +5,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class MainPageController {
-
-    @GetMapping("/")
-    public String mainPage(Model model) {
-        model.addAttribute("title", "SAF | Portfolio");
-        return "mainPage";
+public class SignInController {
+    @GetMapping("/signin")
+    public String signIn(Model model) {
+        model.addAttribute("title", "Вход - SAF | Portfolio");
+        return "signIn";
     }
 }
