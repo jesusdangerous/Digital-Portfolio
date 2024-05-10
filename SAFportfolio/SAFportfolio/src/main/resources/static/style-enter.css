@@ -7,45 +7,78 @@
     margin-right: auto;
 }
 
-.email-enter{
-    margin-top: 128px;
-    margin-bottom: 41px;
-    width: 534px;
-    height: 63px;
-    margin-left: auto;
-    margin-right: auto;
+.mail{
+    background-color: rgba(217, 217, 217, 0.54);
+    width: 300px;
+    height: 61px;
+    border: none;
     font-size: 30px;
-    font-weight: 300;
+}
+
+.class-email{
+    display:flex;
+    margin-top: 128px;
     border: 1px solid black;
-    background-color: rgba(217,217,217,1);
+    width: 675px;
+    margin: auto;
+    margin-top: 128px;
+}
+
+.email-enter{
+    margin: 0;
+    background-color: rgba(217, 217, 217, 0.54);
+    width: 370px;
+    height: 63px;
+    font-size: 30px;
+}
+
+.class-password{
+    display:flex;
+    margin-top: 41px;
+    border: 1px solid black;
+    width: 675px;
+    margin: auto;
+    margin-top: 41px;
 }
 
 .password-enter{
-    width: 534px;
+    margin: 0;
+    background-color: rgba(217, 217, 217, 0.54);
+    width: 370px;
     height: 63px;
-    margin-bottom: 75px;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 30px;
-    font-weight: 300;
-    border: 1px solid black;
-    background-color: rgba(217,217,217,1);
 }
 
-.bottom-continue{
-    width: 400px;
-    height: 51px;
-    margin-left: auto;
-    margin-right: auto;
+.password{
+    background-color: rgba(217, 217, 217, 0.54);
+    width: 570px;
+    height: 61px;
+    border: none;
+    font-size: 30px;
 }
 
-.continue{
+
+.button{
     background-color: #369BF9;
     color: white;
     width: 400px;
     height: 51px;
     font-size: 30px;
-    border: 3px solid black;
     font-family: "Oswald";
+}
+
+.button-continue{
+    width: 400px;
+    margin: auto;
+    padding: auto;
+    margin-top: 68px;
+}
+
+.button:hover{
+    background-color: rgba(54, 155, 249, 0.5);
+}
+
+.button:active{
+    background-color: rgb(10, 34, 184);
 }
 

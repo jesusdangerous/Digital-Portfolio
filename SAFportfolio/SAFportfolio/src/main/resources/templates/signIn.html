@@ -11,15 +11,23 @@
     </head>
     <body>
         <header class="page-header">
-            <div class="header-logo"><h2 class="logo-head">SAF | PORTFOLIO</h2></div>
+            <div class="header-logo"><h2 class="logo-head"><a href="/">SAF | PORTFOLIO</a></h2></div>
             <div class="links-user"><div class="link-enter"><p class="enter"><a href="/signin">Войти</a></p></div>
-                <div class="link-registration"><p class="registration"><a href="#">Регистрация</a></p></div></div>
+                <div class="link-registration"><p class="registration"><a href="/registration">Регистрация</a></p></div></div>
         </header>
         <main>
             <section class="window-enter">
-                <p class="email-enter">Электронная почта или телефон</p>
-                <p class="password-enter">Пароль</p>
-                <p class="bottom-continue"><button type="button" class="continue">Продолжить</button></p>
+                <div class="class-email">
+                    <p class="email-enter">Электронная почта или телефон:  </p>
+                    <form class="email">
+                        <input type="text" class="mail">
+                    </form></div>
+                <div class="class-password">
+                    <p class="password-enter">Пароль: </p>
+                    <form class="f-password">
+                        <input type="text" class="password">
+                    </form></div>
+                <div class="button-continue"><button type="button" class="button">Продолжить</button></div>
             </section>
         </main>
     </body>

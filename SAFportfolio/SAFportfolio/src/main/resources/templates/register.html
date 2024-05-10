@@ -10,20 +10,45 @@
     <link href="style-registration.css" rel="stylesheet">
 </head>
 <body>
-    <header class="page-header">
-        <div class="header-logo"><h2 class="logo-head">SAF | PORTFOLIO</h2></div>
-        <div class="links-user"><div class="link-enter"><p class="enter"><a href="#">Войти</a></p></div>
-            <div class="link-registration"><p class="registration"><a href="#">Регистрация</a></p></div></div>
-    </header>
-    <main>
-        <section class="window-registration">
+<header class="page-header">
+    <div class="header-logo"><h2 class="logo-head"><a href="/">SAF | PORTFOLIO</a></h2></div>
+    <div class="links-user"><div class="link-enter"><p class="enter"><a href="/signin">Войти</a></p></div>
+        <div class="link-registration"><p class="registration"><a href="/registration">Регистрация</a></p></div></div>
+</header>
+<main>
+    <section class="window-registration">
+        <div class="window-registration-item class-name">
             <p class="registration-item-1">Имя</p>
-            <p class="registration-item">Фамилия</p>
-            <p class="registration-item">Телефон</p>
-            <p class="registration-item">Электрронная почта</p>
-            <p class="registration-item">Пароль</p>
-            <p class="bottom-continue"><button type="button" class="continue">Продолжить</button></p>
-        </section>
-    </main>
+            <form class="name-form">
+                <input type="text" class="item-form name">
+            </form>
+        </div>
+        <div class="window-registration-item class-surname">
+            <p class="registration-item-1">Фамилия</p>
+            <form class="name-form">
+                <input type="text" class="item-form surname">
+            </form>
+        </div>
+        <div class="window-registration-item class-phone">
+            <p class="registration-item-1">Телефон</p>
+            <form class="name-form">
+                <input type="text" class="item-form phone">
+            </form>
+        </div>
+        <div class="window-registration-item class-mail">
+            <p class="registration-item-1">Электрронная почта</p>
+            <form class="name-form">
+                <input type="text" class="item-form mail">
+            </form>
+        </div>
+        <div class="window-registration-item class-password">
+            <p class="registration-item-1">Пароль</p>
+            <form class="name-form">
+                <input type="text" class="item-form password">
+            </form>
+        </div>
+        <div class="button-continue"><button type="button" class="button">Продолжить</button></div>
+    </section>
+</main>
     </body>
 </html>
